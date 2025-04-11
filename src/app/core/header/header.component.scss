@@ -1,0 +1,88 @@
+.header {
+  border-bottom: 2px solid var(--accent-color);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  background-color: var(--background-color);
+
+  &_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left {
+      display: flex;
+      align-items: center;
+      .logo {
+        font-size: 2rem;
+        letter-spacing: 2px;
+        color: var(--accent-color);
+        font-family: "Bungee", sans-serif;
+        font-style: normal;
+        font-size: 22px;
+      }
+
+      img {
+        width: 52px;
+        height: 42px;
+      }
+    }
+
+    .header_actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .dark {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+
+        .fa-sun {
+          margin-right: 2px;
+        }
+      }
+    }
+  }
+}
+
+.mat-button-toggle-appearance-standard {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.mat-button-toggle-appearance-standard.mat-button-toggle-checked {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+::ng-deep .mat-button-toggle .mat-pseudo-checkbox {
+  display: none;
+}
+
+::ng-deep .mdc-switch--unselected .mdc-switch__icon,
+::ng-deep .mdc-switch--selected .mdc-switch__icon {
+  display: none;
+}
+
+::ng-deep .mdc-switch--selected .mdc-switch__track::after {
+  background-color: var(--accent-color) !important;
+}
+
+::ng-deep .mdc-switch__track::before {
+  background-color: #f8f8f8 !important;
+}
+
+::ng-deep .mat-button-toggle-group {
+  height: 32px !important;
+}
+
+::ng-deep .mat-button-toggle-label-content {
+  line-height: 33px !important;
+  color: var(--text-color) !important;
+}

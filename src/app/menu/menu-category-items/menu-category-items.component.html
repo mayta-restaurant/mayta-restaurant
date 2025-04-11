@@ -1,0 +1,25 @@
+<div class="menu_category_item">
+  <div class="container">
+    <div class="category_title">
+      <div class="back" (click)="navigateCategories()">
+        <i class="fa-solid fa-chevron-left"></i>
+      </div>
+      <h2>{{ isGeo == "geo" ? dataById?.name : dataById?.nameEn }}</h2>
+    </div>
+
+    <div class="categories">
+      @for(item of dataById?.items; track item.id) {
+      <div class="categories_item">
+        <div>
+          <h3>{{ isGeo == "geo" ? item?.name : item?.nameEn }}</h3>
+          <h4>₾{{ item?.price }}</h4>
+          <p>{{ isGeo == "geo" ? item?.description : item?.descriptionEn }}</p>
+        </div>
+        <img
+          src="https://static.blog.bolt.eu/LIVE/wp-content/uploads/2024/05/10110345/different-types-of-sushi-1024x536.jpg"
+        />
+      </div>
+      }
+    </div>
+  </div>
+</div>

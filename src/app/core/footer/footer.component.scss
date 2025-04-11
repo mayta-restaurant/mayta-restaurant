@@ -1,0 +1,48 @@
+.footer {
+  height: 80px;
+  background-color: var(--background-color);
+  border-top: 1px solid var(--footer-border);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 5;
+  box-shadow: -1px -10px 10px -8px rgba(0, 0, 0, 0.49);
+
+  .container {
+    width: 80%;
+
+    .footer_content {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      .action {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        &.active {
+          i {
+            color: var(--accent-color);
+          }
+        }
+
+        i {
+          color: var(--text-color);
+          font-size: 25px;
+          margin-bottom: 8px;
+        }
+
+        p {
+          font-size: 13px;
+          color: var(--text-color);
+        }
+      }
+    }
+  }
+}

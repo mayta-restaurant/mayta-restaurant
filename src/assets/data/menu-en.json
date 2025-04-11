@@ -1,0 +1,450 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "სტარტერები",
+      "nameEn": "Starters",
+      "items": [
+        {
+          "id": 1,
+          "name": "კრევეტის ჩიფსი",
+          "nameEn": "Shrimp chips",
+          "price": 10,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 2,
+          "name": "ნორის ჩიფსი",
+          "nameEn": "Nori chips",
+          "price": 12,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 3,
+          "name": "კრევეტი ტემპურაში",
+          "nameEn": "Shrimp tempura",
+          "price": 23,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 4,
+          "name": "კიტრი სოიოს სოუსით",
+          "nameEn": "Cucumber with soy sauce",
+          "price": 15,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 5,
+          "name": "ჰიაში ვაკამე",
+          "nameEn": "Hiyashi Wakame",
+          "price": 15,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 6,
+          "name": "ედამამე",
+          "nameEn": "Edamame",
+          "price": 15,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 7,
+          "name": "ქათამი ტემპურაში",
+          "nameEn": "Chicken tempura",
+          "price": 20,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 8,
+          "name": "ქათმის ფრთები ტერიაკით",
+          "nameEn": "Chicken wings with teriyaki",
+          "price": 20,
+          "description": "",
+          "descriptionEn": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "სუში",
+      "nameEn": "Sushi",
+      "items": [
+        {
+          "id": 1,
+          "name": "ფილადელფია",
+          "nameEn": "Philadelphia",
+          "price": 30,
+          "description": "ბრინჯი, ნორი, კრემყველი, კიტრი, ორაგული, ტერიაკის სოუსი, სეზამის მარცვლები, ვასაბი, ჯინჯერი",
+          "descriptionEn": "Rice, nori, cream cheese, cucumber, salmon, teriyaki sauce, sesame seeds, wasabi, ginger"
+        },
+        {
+          "id": 2,
+          "name": "ფილადელფია სპაისი",
+          "nameEn": "Philadelphia Spicy",
+          "price": 33,
+          "description": "ბრინჯი, ნორი, კრემყველი, კიტრი, ორაგულის ტარტარი, სპაის სოუსი, სეზამის მარცვლები, ვასაბი, ჯინჯერი",
+          "descriptionEn": "Rice, nori, cream cheese, cucumber, salmon tartare, spicy sauce, sesame seeds, wasabi, ginger"
+        },
+        {
+          "id": 3,
+          "name": "შემწვარი ფილადელფია",
+          "nameEn": "Fried Philadelphia",
+          "price": 0,
+          "description": "ბრინჯი, ნორი, კრემყველი, კიტრი, მომწვარი ორაგული, სპაის სოუსი, სეზამის მარცვლები, ვასაბი, ჯინჯერი",
+          "descriptionEn": "Rice, nori, cream cheese, cucumber, grilled salmon, spicy sauce, sesame seeds, wasabi, ginger"
+        },
+        {
+          "id": 4,
+          "name": "კალიფორნია",
+          "nameEn": "California",
+          "price": 29,
+          "description": "ბრინჯი, ნორი, კიტრი, კრაბი, ტობიკო, სპაის სოუსი, ვასაბი, ჯინჯერი",
+          "descriptionEn": "Rice, nori, cucumber, crab, tobiko, spicy sauce, wasabi, ginger"
+        },
+        {
+          "id": 5,
+          "name": "კალიფორნია ორაგულით",
+          "nameEn": "California with salmon",
+          "price": 35,
+          "description": "ბრინჯი, ნორი, კრემყველი, კიტრი, ორაგული, ტობიკო, ტერიაკის სოუსი, ვასაბი, ჯინჯერი",
+          "descriptionEn": "Rice, nori, cream cheese, cucumber, salmon, tobiko, teriyaki sauce, wasabi, ginger"
+        },
+        {
+          "id": 6,
+          "name": "კრევეტის ტემპურა როლი",
+          "nameEn": "Shrimp tempura roll",
+          "price": 35,
+          "description": "ბრინჯი, ნორი, კრემყველი, კიტრი, პანირებული კრევეტი, მომწვარი პანკო, სეზამის მარცვლები, ვასაბი, ჯინჯერი",
+          "descriptionEn": "Rice, nori, cream cheese, cucumber, breaded shrimp, fried panko, sesame seeds, wasabi, ginger"
+        },
+        {
+          "id": 7,
+          "name": "დრაგონ როლი",
+          "nameEn": "Dragon roll",
+          "price": 38,
+          "description": "ბრინჯი, ნორი, კრემყველი, კიტრი, პანირებული კრევეტი, გველთევზა, მომწვარი ბრინჯის ჩიფსები, უნაგის სოუსი, სეზამის მარცვლები, ვასაბი, ჯინჯერი",
+          "descriptionEn": "Rice, nori, cream cheese, cucumber, breaded shrimp, eel, fried rice chips, unagi sauce, sesame seeds, wasabi, ginger"
+        },
+        {
+          "id": 8,
+          "name": "ვეჯი როლი",
+          "nameEn": "Veggie roll",
+          "price": 29,
+          "description": "ბრინჯი, ნორი, კიტრი, ბულგარული, ჰიაში ვაკამე, სეზამის მარცვლები, მიწისთხილის სოუსი, ვასაბი, ჯინჯერი",
+          "descriptionEn": "Rice, nori, cucumber, bell pepper, hiyashi wakame, sesame seeds, peanut sauce, wasabi, ginger"
+        },
+        {
+          "id": 9,
+          "name": "ორაგულის მაკი",
+          "nameEn": "Salmon maki",
+          "price": 20,
+          "description": "ბრინჯი, ნორი, ორაგული, ტერიაკის სოუსი, სეზამის მარცვლები, ვასაბი, ჯინჯერი",
+          "descriptionEn": "Rice, nori, salmon, teriyaki sauce, sesame seeds, wasabi, ginger"
+        },
+        {
+          "id": 10,
+          "name": "კიტრის მაკი",
+          "nameEn": "Cucumber maki",
+          "price": 15,
+          "description": "ბრინჯი, ნორი, კიტრი, ტერიაკის სოუსი, სეზამის მარცვლები, ვასაბი, ჯინჯერი",
+          "descriptionEn": "Rice, nori, cucumber, teriyaki sauce, sesame seeds, wasabi, ginger"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "ცხელი როლები",
+      "nameEn": "Hot Rolls",
+      "items": [
+        {
+          "id": 1,
+          "name": "ცხელი ფილადელფია",
+          "nameEn": "Hot Philadelphia",
+          "price": 33,
+          "description": "ბრინჯი, ნორი, კრემყველი, კიტრი, ორაგული, ტერიაკის სოუსი, სეზამის მარცლვები, ვასაბი, ჯინჯერი",
+          "descriptionEn": "Rice, nori, cream cheese, cucumber, salmon, teriyaki sauce, sesame seeds, wasabi, ginger"
+        },
+        {
+          "id": 2,
+          "name": "ცხელი ფილადელფია სპაისი",
+          "nameEn": "Hot Philadelphia spicy",
+          "price": 35,
+          "description": "ბრინჯი, ნორი, კიტრი, ორაგულის ტარტარი, სპაის სოუსი, ტობიკო, სეზამის მარცვლები, ვასაბი, ჯინჯერი",
+          "descriptionEn": "Rice, nori, cucumber, salmon tartare, spicy sauce, tobiko, sesame seeds, wasabi, ginger"
+        },
+        {
+          "id": 3,
+          "name": "ცხელი დრაგონ როლი",
+          "nameEn": "Hot dragon roll",
+          "price": 38,
+          "description": "ბრინჯი, ნორი, კრემყველი, კიტრი, გველთევზა, უნაგის სოუსი, სეზამის მარცვლები, ვასაბი, ჯინჯერი",
+          "descriptionEn": "Rice, nori, cream cheese, cucumber, eel, unagi sauce, sesame seeds, wasabi, ginger"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "სუში ბურიტო",
+      "nameEn": "Sushi Burrito",
+      "items": [
+        {
+          "id": 1,
+          "name": "ვეჯი",
+          "nameEn": "Veggie",
+          "price": 23,
+          "description": "ბრინჯი, ნორი, კიტრი, ბულგარული, ტერიაკის სოუსი, სეზამის მარცვლები, მიწისთხილის სოუსი",
+          "descriptionEn": "Rice, nori, cucumber, bell pepper, teriyaki sauce, sesame seeds, peanut sauce"
+        },
+        {
+          "id": 2,
+          "name": "ქათმით",
+          "nameEn": "Chicken",
+          "price": 25,
+          "description": "ბრინჯი, ნორი, ქათამი, სპაის სოუსი, სეზამის მარცვლები",
+          "descriptionEn": "Rice, nori, chicken, spicy sauce, sesame seeds"
+        },
+        {
+          "id": 3,
+          "name": "ორაგულით",
+          "nameEn": "Salmon",
+          "price": 29,
+          "description": "ბრინჯი, ნორი, კიტრი, კრემყველი, ორაგული, ტერიაკის სოუსი, სეზამის მარცვლები",
+          "descriptionEn": "Rice, nori, cucumber, cream cheese, salmon, teriyaki sauce, sesame seeds"
+        },
+        {
+          "id": 4,
+          "name": "თინუსით",
+          "nameEn": "Tuna",
+          "price": 0,
+          "description": "ბრინჯი, ნორი, თინუსი, სპაის სოუსი, სეზამის მარცვლები",
+          "descriptionEn": "Rice, nori, tuna, spicy sauce, sesame seeds"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "ატრია / ბრინჯი",
+      "nameEn": "Noodles / Rice",
+      "items": [
+        {
+          "id": 1,
+          "name": "ატრია ვეჯი",
+          "nameEn": "Veggie noodles",
+          "price": 18,
+          "description": "ატრია, თეთრი კომბოსტო, წითელი ბულგარული, წითელი კომბოსტო, მწვანე ბულგარული, სტაფილო, მწვანე ხახვი, სეზამის მარცვლები, საფირმო სოუსი - (ტკბილ ცხარე)",
+          "descriptionEn": "Noodles, white cabbage, red bell pepper, red cabbage, green bell pepper, carrot, green onion, sesame seeds, signature sauce - (sweet spicy)"
+        },
+        {
+          "id": 2,
+          "name": "ატრია ქათმით",
+          "nameEn": "Chicken noodles",
+          "price": 20,
+          "description": "ატრია, ქათამი, თეთრი კომბოსტო, წითელი ბულგარული, წითელი კომბოსტო, მწვანე ბულგარული, სტაფილო, მწვანე ხახვი, სეზამის მარცვლები, საფირმო სოუსი - (ტკბილ ცხარე)",
+          "descriptionEn": "Noodles, chicken, white cabbage, red bell pepper, red cabbage, green bell pepper, carrot, green onion, sesame seeds, signature sauce - (sweet spicy)"
+        },
+        {
+          "id": 3,
+          "name": "ატრია კრევეტებით",
+          "nameEn": "Shrimp noodles",
+          "price": 25,
+          "description": "ატრია, კრევეტები, თეთრი კომბოსტო, წითელი ბულგარული, წითელი კომბოსტო, მწვანე ბულგარული, სტაფილო, მწვანე ხახვი, სეზამის მარცვლები, საფირმო სოუსი - (ტკბილ ცხარე)",
+          "descriptionEn": "Noodles, shrimp, white cabbage, red bell pepper, red cabbage, green bell pepper, carrot, green onion, sesame seeds, signature sauce - (sweet spicy)"
+        },
+        {
+          "id": 1,
+          "name": "ბრინჯი ვეჯი",
+          "nameEn": "Veggie rice",
+          "price": 18,
+          "description": "მომწვარი ბრინჯი, თეთრი კომბოსტო, წითელი ბულგარული, წითელი კომბოსტო, მწვანე ბულგარული, სტაფილო, მწვანე ხახვი, სეზამის მარცვლები, საფირმო სოუსი - (ტკბილ ცხარე)",
+          "descriptionEn": "Fried rice, white cabbage, red bell pepper, red cabbage, green bell pepper, carrot, green onion, sesame seeds, signature sauce - (sweet spicy)"
+        },
+        {
+          "id": 2,
+          "name": "ბრინჯი ქათმით",
+          "nameEn": "Chicken rice",
+          "price": 20,
+          "description": "მომწვარი ბრინჯი, ქათამი, თეთრი კომბოსტო, წითელი ბულგარული, წითელი კომბოსტო, მწვანე ბულგარული, სტაფილო, მწვანე ხახვი, სეზამის მარცვლები, საფირმო სოუსი - (ტკბილ ცხარე)",
+          "descriptionEn": "Fried rice, chicken, white cabbage, red bell pepper, red cabbage, green bell pepper, carrot, green onion, sesame seeds, signature sauce - (sweet spicy)"
+        },
+        {
+          "id": 3,
+          "name": "ბრინჯი კრევეტებით",
+          "nameEn": "Shrimp rice",
+          "price": 25,
+          "description": "მომწვარი ბრინჯი, კრევეტები, თეთრი კომბოსტო, წითელი ბულგარული, წითელი კომბოსტო, მწვანე ბულგარული, სტაფილო, მწვანე ხახვი, სეზამის მარცვლები, საფირმო სოუსი - (ტკბილ ცხარე)",
+          "descriptionEn": "Fried rice, shrimp, white cabbage, red bell pepper, red cabbage, green bell pepper, carrot, green onion, sesame seeds, signature sauce - (sweet spicy)"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "რამენი",
+      "nameEn": "Ramen",
+      "items": [
+        {
+          "id": 1,
+          "name": "ტონკაცუ რამენი",
+          "nameEn": "Tonkatsu ramen",
+          "price": 30,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 2,
+          "name": "მისო რამენი",
+          "nameEn": "Miso ramen",
+          "price": 30,
+          "description": "",
+          "descriptionEn": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "ონიგირი",
+      "nameEn": "Onigiri",
+      "items": [
+        {
+          "id": 1,
+          "name": "ვეჯი ტოფუ",
+          "nameEn": "Veggie tofu",
+          "price": 18,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 2,
+          "name": "ტუნა",
+          "nameEn": "Tuna",
+          "price": 18,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 3,
+          "name": "ორაგული",
+          "nameEn": "Salmon",
+          "price": 20,
+          "description": "",
+          "descriptionEn": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "დესერტები",
+      "nameEn": "Desserts",
+      "items": [
+        {
+          "id": 1,
+          "name": "შემწვარი ბანანი",
+          "nameEn": "Fried banana",
+          "price": 15,
+          "description": "",
+          "descriptionEn": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "გამაგრილებელი სასმელი",
+      "nameEn": "Soft Drinks",
+      "items": [
+        {
+          "id": 1,
+          "name": "ცივი ყავა",
+          "nameEn": "Cold coffee",
+          "price": 12,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 2,
+          "name": "ცივი ყავა ნაყინით",
+          "nameEn": "Cold coffee with ice cream",
+          "price": 15,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 3,
+          "name": "წვენი",
+          "nameEn": "Juice",
+          "price": 7,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 4,
+          "name": "კოკა-კოლა / ფანტა / სპრაიტი",
+          "nameEn": "Coca-Cola / Fanta / Sprite",
+          "price": 4.5,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 5,
+          "name": "მინერალური წყალი",
+          "nameEn": "Mineral water",
+          "price": 3.5,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 6,
+          "name": "წყალი",
+          "nameEn": "Water",
+          "price": 3,
+          "description": "",
+          "descriptionEn": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "ყავა / ჩაი",
+      "nameEn": "Coffee / Tea",
+      "items": [
+        {
+          "id": 1,
+          "name": "შავი ჩაი",
+          "nameEn": "Black tea",
+          "price": 10,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 2,
+          "name": "მწვანე ჩაი",
+          "nameEn": "Green tea",
+          "price": 10,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 3,
+          "name": "ხილის ჩაი",
+          "nameEn": "Fruit tea",
+          "price": 10,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 4,
+          "name": "ყავა ბათუმური",
+          "nameEn": "Batumi coffee",
+          "price": 4,
+          "description": "",
+          "descriptionEn": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+.aboutUs {
+  padding: 40px 0;
+  height: 100vh;
+  .container {
+    max-width: 500px;
+
+    .aboutUs_content {
+      .working_hours {
+        .title {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          margin-bottom: 15px;
+        }
+
+        .hours {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    .location {
+      .title {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 15px;
+        margin-top: 25px;
+      }
+    }
+
+    .mobile {
+      .title {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 15px;
+        margin-top: 25px;
+      }
+    }
+
+    .email {
+      .title {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 15px;
+        margin-top: 25px;
+      }
+    }
+
+    .social {
+      .title {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 15px;
+        margin-top: 25px;
+      }
+
+      .social_icons {
+        a {
+          text-decoration: none;
+          color: var(--accent-color);
+          i {
+            font-size: 25px;
+            color: var(--accent-color);
+          }
+
+          &:hover,
+          &:active {
+            i {
+              font-size: 28px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

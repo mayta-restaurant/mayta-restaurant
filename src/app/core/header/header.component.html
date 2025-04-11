@@ -1,0 +1,34 @@
+<header class="header">
+  <div class="container">
+    <div class="header_content">
+      <div class="left">
+        <img [src]="logoUrl" alt="logo" />
+        <div class="logo">
+          <span>MAYTA</span>
+        </div>
+      </div>
+      <div class="header_actions">
+        <div class="dark">
+          <i class="fa-solid fa-sun"></i>
+          <mat-slide-toggle
+            [checked]="isDarkMode"
+            (change)="toggleDarkMode($event)"
+          ></mat-slide-toggle>
+          <i class="fa-regular fa-moon"></i>
+        </div>
+        <mat-button-toggle-group
+          name="fontStyle"
+          aria-label="Font Style"
+          [value]="langValue"
+        >
+          <mat-button-toggle value="geo" (change)="onLanguageChange('geo')"
+            >Geo</mat-button-toggle
+          >
+          <mat-button-toggle value="eng" (change)="onLanguageChange('eng')"
+            >Eng</mat-button-toggle
+          >
+        </mat-button-toggle-group>
+      </div>
+    </div>
+  </div>
+</header>

@@ -109,9 +109,9 @@
           "name": "ფილადელფია აბური",
           "nameEn": "Philadelphia Aburi",
           "imgUrl": "assets/images/philadelphia_aburi.jpeg",
-          "price": 0,
+          "price": 35,
           "description": "ბრინჯი, ნორი, კრემყველი, კიტრი, მომწვარი ორაგული, სპაის სოუსი, სეზამის მარცვლები, ვასაბი, ჯინჯერი",
-          "descriptionEn": "Rice, nori, cream cheese, cucumber, grilled salmon, spicy sauce, sesame seeds, wasabi, ginger"
+          "descriptionEn": "Rice, nori, cream cheese, cucumber, torched salmon, spicy sauce, sesame seeds, wasabi, ginger"
         },
         {
           "id": 4,
@@ -138,7 +138,7 @@
           "imgUrl": "assets/images/krevetis_tempura_roli.JPG",
           "price": 35,
           "description": "ბრინჯი, ნორი, კრემყველი, კიტრი, პანირებული კრევეტი, მომწვარი პანკო, სეზამის მარცვლები, ვასაბი, ჯინჯერი",
-          "descriptionEn": "Rice, nori, cream cheese, cucumber, breaded shrimp, fried panko, sesame seeds, wasabi, ginger"
+          "descriptionEn": "Rice, nori, cream cheese, cucumber, shrimp tempura, fried panko, sesame seeds, wasabi, ginger"
         },
         {
           "id": 7,
@@ -147,7 +147,7 @@
           "imgUrl": "assets/images/dragon_roll.jpeg",
           "price": 38,
           "description": "ბრინჯი, ნორი, კრემყველი, კიტრი, პანირებული კრევეტი, გველთევზა, მომწვარი ბრინჯის ჩიფსები, უნაგის სოუსი, სეზამის მარცვლები, ვასაბი, ჯინჯერი",
-          "descriptionEn": "Rice, nori, cream cheese, cucumber, breaded shrimp, eel, fried rice chips, unagi sauce, sesame seeds, wasabi, ginger"
+          "descriptionEn": "Rice, nori, cream cheese, cucumber, shrimp tempura, unagi, fried rice chips, unagi sauce, sesame seeds, wasabi, ginger"
         },
         {
           "id": 8,
@@ -199,8 +199,8 @@
           "nameEn": "Hot Philadelphia spicy",
           "imgUrl": "assets/images/hot_phildelphia_spicy.jpg",
           "price": 35,
-          "description": "ბრინჯი, ნორი, კიტრი, ორაგულის ტარტარი, სპაის სოუსი, ტობიკო, სეზამის მარცვლები, ვასაბი, ჯინჯერი",
-          "descriptionEn": "Rice, nori, cucumber, salmon tartare, spicy sauce, tobiko, sesame seeds, wasabi, ginger"
+          "description": "ბრინჯი, ნორი, კიტრი, ორაგულის ტარტარი, კრაბი, სპაის სოუსი, ტობიკო, სეზამის მარცვლები, ვასაბი, ჯინჯერი",
+          "descriptionEn": "Rice, nori, cucumber, salmon tartare, crab, spicy sauce, tobiko, sesame seeds, wasabi, ginger"
         },
         {
           "id": 3,
@@ -209,7 +209,7 @@
           "imgUrl": "assets/images/hot_unagi.jpg",
           "price": 38,
           "description": "ბრინჯი, ნორი, კრემყველი, კიტრი, გველთევზა, უნაგის სოუსი, სეზამის მარცვლები, ვასაბი, ჯინჯერი",
-          "descriptionEn": "Rice, nori, cream cheese, cucumber, eel, unagi sauce, sesame seeds, wasabi, ginger"
+          "descriptionEn": "Rice, nori, cream cheese, cucumber, unagi, unagi sauce, sesame seeds, wasabi, ginger"
         }
       ]
     },
@@ -321,32 +321,6 @@
     },
     {
       "id": 6,
-      "name": "რამენი",
-      "nameEn": "Ramen",
-      "imgUrl": "assets/images/tonkotsu_ramen.jpeg",
-      "items": [
-        {
-          "id": 1,
-          "name": "ტონკაცუ რამენი",
-          "nameEn": "Tonkatsu ramen",
-          "imgUrl": "assets/images/tonkotsu_ramen.jpeg",
-          "price": 30,
-          "description": "",
-          "descriptionEn": ""
-        },
-        {
-          "id": 2,
-          "name": "მისო რამენი",
-          "nameEn": "Miso ramen",
-          "imgUrl": "",
-          "price": 30,
-          "description": "",
-          "descriptionEn": ""
-        }
-      ]
-    },
-    {
-      "id": 7,
       "name": "ონიგირი",
       "nameEn": "Onigiri",
       "imgUrl": "assets/images/onigirebze.jpeg",
@@ -375,6 +349,32 @@
           "nameEn": "Salmon",
           "imgUrl": "assets/images/onigirebze.jpeg",
           "price": 20,
+          "description": "",
+          "descriptionEn": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "რამენი",
+      "nameEn": "Ramen",
+      "imgUrl": "",
+      "items": [
+        {
+          "id": 1,
+          "name": "ტონკაცუ რამენი",
+          "nameEn": "Tonkatsu ramen",
+          "imgUrl": "assets/images/tonkotsu_ramen.jpeg",
+          "price": 30,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 2,
+          "name": "მისო რამენი",
+          "nameEn": "Miso ramen",
+          "imgUrl": "",
+          "price": 30,
           "description": "",
           "descriptionEn": ""
         }
@@ -498,6 +498,212 @@
           "nameEn": "Batumi coffee",
           "imgUrl": "",
           "price": 4,
+          "description": "",
+          "descriptionEn": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "ალკოჰოლური სასმელი",
+      "nameEn": "alcohol",
+      "imgUrl": "",
+      "items": [
+        {
+          "id": 1,
+          "name": "მოჰიტო",
+          "nameEn": "Mojito",
+          "imgUrl": "",
+          "price": 20,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 2,
+          "name": "ჯინ ტონიკი",
+          "nameEn": "Gin tonic",
+          "imgUrl": "",
+          "price": 18,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 3,
+          "name": "Gin breeze",
+          "nameEn": "Gin breeze",
+          "imgUrl": "",
+          "price": 18,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 4,
+          "name": "ნეგრონი",
+          "nameEn": "Negroni",
+          "imgUrl": "",
+          "price": 22,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 5,
+          "name": "Whiskey coke",
+          "nameEn": "Whiskey coke",
+          "imgUrl": "",
+          "price": 18,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 6,
+          "name": "Whiskey sour",
+          "nameEn": "Whiskey sour",
+          "imgUrl": "",
+          "price": 22,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 7,
+          "name": "Aperol spitz",
+          "nameEn": "Aperol spitz",
+          "imgUrl": "",
+          "price": 22,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 8,
+          "name": "Mimosa",
+          "nameEn": "Mimosa",
+          "imgUrl": "",
+          "price": 15,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 9,
+          "name": "Draft beer",
+          "nameEn": "Draft beer",
+          "imgUrl": "",
+          "price": 8,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 10,
+          "name": "Alhkanaidze",
+          "nameEn": "Alhkanaidze",
+          "imgUrl": "",
+          "price": 10,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 11,
+          "name": "Kirin/Asahi",
+          "nameEn": "Kirin/Asahi",
+          "imgUrl": "",
+          "price": 12,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 12,
+          "name": "Chacha Mayta",
+          "nameEn": "Chacha Mayta",
+          "imgUrl": "",
+          "price": 5,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 13,
+          "name": "Vodka",
+          "nameEn": "Vodka",
+          "imgUrl": "",
+          "price": 7,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 14,
+          "name": "Jagermeister",
+          "nameEn": "Jagermeister",
+          "imgUrl": "",
+          "price": 12,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 15,
+          "name": "Gin",
+          "nameEn": "Gin",
+          "imgUrl": "",
+          "price": 12,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 16,
+          "name": "Whiskey",
+          "nameEn": "Whiskey",
+          "imgUrl": "",
+          "price": 15,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 17,
+          "name": "Tequila",
+          "nameEn": "Tequila",
+          "imgUrl": "",
+          "price": 12,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 18,
+          "name": "SAKE",
+          "nameEn": "SAKE",
+          "imgUrl": "",
+          "price": 8,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 19,
+          "name": "Rkatsiteli white dry",
+          "nameEn": "Rkatsiteli white dry",
+          "imgUrl": "",
+          "price": 10,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 20,
+          "name": "Tvishi white emi-sweet",
+          "nameEn": "Tvishi white emi-sweet",
+          "imgUrl": "",
+          "price": 12,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 21,
+          "name": "Saperavi red dry",
+          "nameEn": "Saperavi red dry",
+          "imgUrl": "",
+          "price": 12,
+          "description": "",
+          "descriptionEn": ""
+        },
+        {
+          "id": 22,
+          "name": "Kindzmarauli red semi-sweet",
+          "nameEn": "Kindzmarauli red semi-sweet",
+          "imgUrl": "",
+          "price": 14,
           "description": "",
           "descriptionEn": ""
         }

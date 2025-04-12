@@ -1,1 +1,11 @@
-<p>menu-item-detail works!</p>
+<div class="menu_item_detail">
+  <img [src]="item?.imgUrl" alt="" />
+
+  <div class="menu_item_detail_text">
+    <h2>{{ isGeo == 'geo' ? item?.name : item?.nameEn }}</h2>
+    <h4>₾{{ item?.price }}</h4>
+    <p>
+      {{ isGeo == 'geo' ? item?.description : item?.descriptionEn }}
+    </p>
+  </div>
+</div>

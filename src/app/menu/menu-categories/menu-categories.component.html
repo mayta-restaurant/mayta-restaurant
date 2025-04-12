@@ -5,13 +5,13 @@
     <div class="categories">
       @for(item of menuData; track item.id) {
       <div class="categories_item" (click)="openCategory(item.id)">
-        <img
-          class="bg"
-          src="https://static.blog.bolt.eu/LIVE/wp-content/uploads/2024/05/10110345/different-types-of-sushi-1024x536.jpg"
-          alt="logo"
-        />
+        @if(item?.imgUrl) {
+        <img class="bg" [src]="item?.imgUrl" alt="logo" />
+        } @else {
+        <img class="bg" src="assets/images/logo.png" alt="logo" />
+        }
         <div class="overlay"></div>
-        <p>{{ isGeo == "geo" ? item.name : item.nameEn }}</p>
+        <p>{{ isGeo == 'geo' ? item.name : item.nameEn }}</p>
       </div>
       }
     </div>

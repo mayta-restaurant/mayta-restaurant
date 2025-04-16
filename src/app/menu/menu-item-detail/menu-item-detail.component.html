@@ -1,5 +1,9 @@
 <div class="menu_item_detail">
-  <img [src]="item?.imgUrl" alt="" />
+  @if(item?.imgUrl) {
+  <img [src]="item?.imgUrl" />
+  } @else {
+  <img src="assets/images/logo.png" />
+  }
 
   <div class="menu_item_detail_text">
     <h2>{{ isGeo == 'geo' ? item?.name : item?.nameEn }}</h2>
